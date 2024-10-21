@@ -1,0 +1,270 @@
+/* Reseta e ajuste de estilo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #8B0000; /* Cor vinho, para dar o toque italiano */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+/* Estilos para a imagem da logo */
+.logo-container img {
+    width: 50px; /* Ajuste o tamanho da logo aqui */
+    height: auto;
+}
+
+/* Estilos para o nome do restaurante */
+.logo-container h1 {
+    font-size: 24px;
+    font-family: 'Georgia', serif; /* Tipografia com estilo clássico */
+    color: #fff;
+    margin: 0;
+}
+
+/* Estilos para o menu de navegação */
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00; 
+}
+
+.hero {
+    background-color: #f5e0d6;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #8B0000; 
+}
+
+.hero .description {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.pizza-img img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Seção de pratos principais */
+.destaques {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px 0;
+    background-color: #f5e0d6;
+    text-align: center;
+}
+
+
+
+
+.destaques img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.destaques img:hover {
+    transform: scale(1.05);
+}
+
+.destaques h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+    margin-top: 10px;
+    color: #8B0000;
+}
+
+/* Seção de bebidas */
+.bebidas {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.bebidas h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #8B0000;
+}
+
+.bebidas img {
+    width: 200px;
+    border-radius: 10px;
+    margin: 0 15px;
+    transition: transform 0.3s ease;
+}
+
+.bebidas img:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: #8B0000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+#cardapio {
+    padding: 60px 0;
+    background-color: #f4f1ea;  
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+
+#cardapio h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #5a3e2b;  
+}
+
+#cardapio .menu-items {
+    margin-bottom: 40px;
+}
+
+#cardapio h3 {
+    font-size: 1.8em;
+    color: #9c6644;  
+    margin-top: 30px;
+}
+
+#cardapio p {
+    font-size: 1.3em;
+    color: #5a3e2b;
+    margin-top: 12px;
+}
+
+.cardapio-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;  
+}
+
+.cardapio-img img {
+    max-width: 80%; 
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+}
+
+.inactive {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: all 0.5s ease-in-out;
+}
+
+.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+footer {
+    background-color: #a72020; 
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+footer .contact-details p {
+    margin: 10px 0;
+    font-size: 18px;
+}
